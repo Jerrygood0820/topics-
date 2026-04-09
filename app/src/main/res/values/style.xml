@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 使用最基礎的 NoActionBar 主題，Compose 會負責剩下的 UI -->
+    <style name="Theme.TaoyuanTraffic" parent="android:Theme.Material.Light.NoActionBar">
+    </style>
+</resources>

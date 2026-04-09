@@ -1,0 +1,200 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.taoyuantrafficgps"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="35" />
+10
+11    <!-- 基礎網路權限 -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\User\Desktop\school\topics\TaoyuanTrafficGPS\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\User\Desktop\school\topics\TaoyuanTrafficGPS\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\Users\User\Desktop\school\topics\TaoyuanTrafficGPS\app\src\main\AndroidManifest.xml:7:5-79
+13-->C:\Users\User\Desktop\school\topics\TaoyuanTrafficGPS\app\src\main\AndroidManifest.xml:7:22-76
+14
+15    <!-- 定位權限 -->
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->C:\Users\User\Desktop\school\topics\TaoyuanTrafficGPS\app\src\main\AndroidManifest.xml:10:5-79
+16-->C:\Users\User\Desktop\school\topics\TaoyuanTrafficGPS\app\src\main\AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->C:\Users\User\Desktop\school\topics\TaoyuanTrafficGPS\app\src\main\AndroidManifest.xml:11:5-81
+17-->C:\Users\User\Desktop\school\topics\TaoyuanTrafficGPS\app\src\main\AndroidManifest.xml:11:22-78
+18
+19    <!-- 語音回報所需權限 (F05) -->
+20    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+20-->C:\Users\User\Desktop\school\topics\TaoyuanTrafficGPS\app\src\main\AndroidManifest.xml:14:5-71
+20-->C:\Users\User\Desktop\school\topics\TaoyuanTrafficGPS\app\src\main\AndroidManifest.xml:14:22-68
+21
+22    <uses-feature
+22-->C:\Users\User\Desktop\school\topics\TaoyuanTrafficGPS\app\src\main\AndroidManifest.xml:16:5-18:35
+23        android:glEsVersion="0x00020000"
+23-->C:\Users\User\Desktop\school\topics\TaoyuanTrafficGPS\app\src\main\AndroidManifest.xml:17:9-41
+24        android:required="true" />
+24-->C:\Users\User\Desktop\school\topics\TaoyuanTrafficGPS\app\src\main\AndroidManifest.xml:18:9-32
+25
+26    <queries>
+26-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\User\.gradle\caches\8.13\transforms\2575e367dd148b7cbcb894e987d5dc5c\transformed\play-services-maps-19.0.0\AndroidManifest.xml:30:5-34:15
+27
+28        <!-- Needs to be explicitly declared on Android R+ -->
+29        <package android:name="com.google.android.apps.maps" />
+29-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\User\.gradle\caches\8.13\transforms\2575e367dd148b7cbcb894e987d5dc5c\transformed\play-services-maps-19.0.0\AndroidManifest.xml:33:9-64
+29-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\User\.gradle\caches\8.13\transforms\2575e367dd148b7cbcb894e987d5dc5c\transformed\play-services-maps-19.0.0\AndroidManifest.xml:33:18-61
+30    </queries>
+31
+32    <permission
+32-->[androidx.core:core:1.15.0] C:\Users\User\.gradle\caches\8.13\transforms\c755156d294fd55b4fb8c04f2a58368a\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+33        android:name="com.example.taoyuantrafficgps.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+33-->[androidx.core:core:1.15.0] C:\Users\User\.gradle\caches\8.13\transforms\c755156d294fd55b4fb8c04f2a58368a\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+34        android:protectionLevel="signature" />
+34-->[androidx.core:core:1.15.0] C:\Users\User\.gradle\caches\8.13\transforms\c755156d294fd55b4fb8c04f2a58368a\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+35
+36    <uses-permission android:name="com.example.taoyuantrafficgps.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+36-->[androidx.core:core:1.15.0] C:\Users\User\.gradle\caches\8.13\transforms\c755156d294fd55b4fb8c04f2a58368a\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+36-->[androidx.core:core:1.15.0] C:\Users\User\.gradle\caches\8.13\transforms\c755156d294fd55b4fb8c04f2a58368a\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+37
+38    <application
+38-->C:\Users\User\Desktop\school\topics\TaoyuanTrafficGPS\app\src\main\AndroidManifest.xml:20:5-43:19
+39        android:allowBackup="true"
+39-->C:\Users\User\Desktop\school\topics\TaoyuanTrafficGPS\app\src\main\AndroidManifest.xml:21:9-35
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.15.0] C:\Users\User\.gradle\caches\8.13\transforms\c755156d294fd55b4fb8c04f2a58368a\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+41        android:debuggable="true"
+42        android:extractNativeLibs="false"
+43        android:icon="@mipmap/ic_launcher"
+43-->C:\Users\User\Desktop\school\topics\TaoyuanTrafficGPS\app\src\main\AndroidManifest.xml:22:9-43
+44        android:label="桃園路況即時通"
+44-->C:\Users\User\Desktop\school\topics\TaoyuanTrafficGPS\app\src\main\AndroidManifest.xml:24:9-32
+45        android:roundIcon="@mipmap/ic_launcher_round"
+45-->C:\Users\User\Desktop\school\topics\TaoyuanTrafficGPS\app\src\main\AndroidManifest.xml:23:9-54
+46        android:supportsRtl="true"
+46-->C:\Users\User\Desktop\school\topics\TaoyuanTrafficGPS\app\src\main\AndroidManifest.xml:25:9-35
+47        android:testOnly="true"
+48        android:theme="@style/Theme.TaoyuanTraffic"
+48-->C:\Users\User\Desktop\school\topics\TaoyuanTrafficGPS\app\src\main\AndroidManifest.xml:26:9-52
+49        android:usesCleartextTraffic="true" >
+49-->C:\Users\User\Desktop\school\topics\TaoyuanTrafficGPS\app\src\main\AndroidManifest.xml:27:9-44
+50        <meta-data
+50-->C:\Users\User\Desktop\school\topics\TaoyuanTrafficGPS\app\src\main\AndroidManifest.xml:30:9-32:71
+51            android:name="com.google.android.geo.API_KEY"
+51-->C:\Users\User\Desktop\school\topics\TaoyuanTrafficGPS\app\src\main\AndroidManifest.xml:31:13-58
+52            android:value="AIzaSyAmWULoF7cIYpZ-oYSAwnaHppu389tvMnE" />
+52-->C:\Users\User\Desktop\school\topics\TaoyuanTrafficGPS\app\src\main\AndroidManifest.xml:32:13-68
+53
+54        <activity
+54-->C:\Users\User\Desktop\school\topics\TaoyuanTrafficGPS\app\src\main\AndroidManifest.xml:34:9-41:20
+55            android:name="com.example.taoyuantrafficgps.MainActivity"
+55-->C:\Users\User\Desktop\school\topics\TaoyuanTrafficGPS\app\src\main\AndroidManifest.xml:35:13-41
+56            android:exported="true" >
+56-->C:\Users\User\Desktop\school\topics\TaoyuanTrafficGPS\app\src\main\AndroidManifest.xml:36:13-36
+57            <intent-filter>
+57-->C:\Users\User\Desktop\school\topics\TaoyuanTrafficGPS\app\src\main\AndroidManifest.xml:37:13-40:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->C:\Users\User\Desktop\school\topics\TaoyuanTrafficGPS\app\src\main\AndroidManifest.xml:38:17-69
+58-->C:\Users\User\Desktop\school\topics\TaoyuanTrafficGPS\app\src\main\AndroidManifest.xml:38:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->C:\Users\User\Desktop\school\topics\TaoyuanTrafficGPS\app\src\main\AndroidManifest.xml:39:17-77
+60-->C:\Users\User\Desktop\school\topics\TaoyuanTrafficGPS\app\src\main\AndroidManifest.xml:39:27-74
+61            </intent-filter>
+62        </activity>
+63        <activity
+63-->[androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\User\.gradle\caches\8.13\transforms\643753ec35a1ea3670ee343bf4b15efb\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+64            android:name="androidx.compose.ui.tooling.PreviewActivity"
+64-->[androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\User\.gradle\caches\8.13\transforms\643753ec35a1ea3670ee343bf4b15efb\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+65            android:exported="true" />
+65-->[androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\User\.gradle\caches\8.13\transforms\643753ec35a1ea3670ee343bf4b15efb\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+66
+67        <meta-data
+67-->[com.google.maps.android:android-maps-utils:3.8.2] C:\Users\User\.gradle\caches\8.13\transforms\e6d98d3647b4510f25ad82ec494eb4ab\transformed\android-maps-utils-3.8.2\AndroidManifest.xml:8:9-10:69
+68            android:name="com.google.android.gms.version"
+68-->[com.google.maps.android:android-maps-utils:3.8.2] C:\Users\User\.gradle\caches\8.13\transforms\e6d98d3647b4510f25ad82ec494eb4ab\transformed\android-maps-utils-3.8.2\AndroidManifest.xml:9:13-58
+69            android:value="@integer/google_play_services_version" /> <!-- Needs to be explicitly declared on P+ -->
+69-->[com.google.maps.android:android-maps-utils:3.8.2] C:\Users\User\.gradle\caches\8.13\transforms\e6d98d3647b4510f25ad82ec494eb4ab\transformed\android-maps-utils-3.8.2\AndroidManifest.xml:10:13-66
+70        <uses-library
+70-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\User\.gradle\caches\8.13\transforms\2575e367dd148b7cbcb894e987d5dc5c\transformed\play-services-maps-19.0.0\AndroidManifest.xml:39:9-41:40
+71            android:name="org.apache.http.legacy"
+71-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\User\.gradle\caches\8.13\transforms\2575e367dd148b7cbcb894e987d5dc5c\transformed\play-services-maps-19.0.0\AndroidManifest.xml:40:13-50
+72            android:required="false" />
+72-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\User\.gradle\caches\8.13\transforms\2575e367dd148b7cbcb894e987d5dc5c\transformed\play-services-maps-19.0.0\AndroidManifest.xml:41:13-37
+73
+74        <activity
+74-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\User\.gradle\caches\8.13\transforms\8fe970944db8e803c6298826487fdb0a\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+75            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+75-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\User\.gradle\caches\8.13\transforms\8fe970944db8e803c6298826487fdb0a\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+76            android:exported="false"
+76-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\User\.gradle\caches\8.13\transforms\8fe970944db8e803c6298826487fdb0a\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+77            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+77-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\User\.gradle\caches\8.13\transforms\8fe970944db8e803c6298826487fdb0a\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+78
+79        <provider
+79-->[androidx.emoji2:emoji2:1.3.0] C:\Users\User\.gradle\caches\8.13\transforms\9acb774eed2e951332bb0465128b5126\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+80            android:name="androidx.startup.InitializationProvider"
+80-->[androidx.emoji2:emoji2:1.3.0] C:\Users\User\.gradle\caches\8.13\transforms\9acb774eed2e951332bb0465128b5126\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+81            android:authorities="com.example.taoyuantrafficgps.androidx-startup"
+81-->[androidx.emoji2:emoji2:1.3.0] C:\Users\User\.gradle\caches\8.13\transforms\9acb774eed2e951332bb0465128b5126\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+82            android:exported="false" >
+82-->[androidx.emoji2:emoji2:1.3.0] C:\Users\User\.gradle\caches\8.13\transforms\9acb774eed2e951332bb0465128b5126\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+83            <meta-data
+83-->[androidx.emoji2:emoji2:1.3.0] C:\Users\User\.gradle\caches\8.13\transforms\9acb774eed2e951332bb0465128b5126\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+84                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+84-->[androidx.emoji2:emoji2:1.3.0] C:\Users\User\.gradle\caches\8.13\transforms\9acb774eed2e951332bb0465128b5126\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+85                android:value="androidx.startup" />
+85-->[androidx.emoji2:emoji2:1.3.0] C:\Users\User\.gradle\caches\8.13\transforms\9acb774eed2e951332bb0465128b5126\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+86            <meta-data
+86-->[androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\User\.gradle\caches\8.13\transforms\7fcfc441ed409df60a103742cfc1ed17\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:29:13-31:52
+87                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+87-->[androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\User\.gradle\caches\8.13\transforms\7fcfc441ed409df60a103742cfc1ed17\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:30:17-78
+88                android:value="androidx.startup" />
+88-->[androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\User\.gradle\caches\8.13\transforms\7fcfc441ed409df60a103742cfc1ed17\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:31:17-49
+89            <meta-data
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\8.13\transforms\6c9443588223f4c5dcb59c4c05864788\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+90                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\8.13\transforms\6c9443588223f4c5dcb59c4c05864788\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+91                android:value="androidx.startup" />
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\8.13\transforms\6c9443588223f4c5dcb59c4c05864788\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+92        </provider>
+93
+94        <receiver
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\8.13\transforms\6c9443588223f4c5dcb59c4c05864788\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+95            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\8.13\transforms\6c9443588223f4c5dcb59c4c05864788\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+96            android:directBootAware="false"
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\8.13\transforms\6c9443588223f4c5dcb59c4c05864788\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+97            android:enabled="true"
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\8.13\transforms\6c9443588223f4c5dcb59c4c05864788\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+98            android:exported="true"
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\8.13\transforms\6c9443588223f4c5dcb59c4c05864788\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+99            android:permission="android.permission.DUMP" >
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\8.13\transforms\6c9443588223f4c5dcb59c4c05864788\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+100            <intent-filter>
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\8.13\transforms\6c9443588223f4c5dcb59c4c05864788\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+101                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\8.13\transforms\6c9443588223f4c5dcb59c4c05864788\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\8.13\transforms\6c9443588223f4c5dcb59c4c05864788\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+102            </intent-filter>
+103            <intent-filter>
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\8.13\transforms\6c9443588223f4c5dcb59c4c05864788\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+104                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\8.13\transforms\6c9443588223f4c5dcb59c4c05864788\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\8.13\transforms\6c9443588223f4c5dcb59c4c05864788\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+105            </intent-filter>
+106            <intent-filter>
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\8.13\transforms\6c9443588223f4c5dcb59c4c05864788\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+107                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\8.13\transforms\6c9443588223f4c5dcb59c4c05864788\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\8.13\transforms\6c9443588223f4c5dcb59c4c05864788\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+108            </intent-filter>
+109            <intent-filter>
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\8.13\transforms\6c9443588223f4c5dcb59c4c05864788\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+110                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\8.13\transforms\6c9443588223f4c5dcb59c4c05864788\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\8.13\transforms\6c9443588223f4c5dcb59c4c05864788\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+111            </intent-filter>
+112        </receiver>
+113    </application>
+114
+115</manifest>
