@@ -22,3 +22,4 @@ dependencyResolutionManagement {
 rootProject.name = "TaoyuanTrafficGPS"
 include(":app")
 include(":MapPoC")
+include(":MapPoCnew")

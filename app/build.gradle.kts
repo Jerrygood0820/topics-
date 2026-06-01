@@ -43,13 +43,18 @@ dependencies {
 
     implementation("androidx.navigation:navigation-compose:2.8.4")
 
+    // 關鍵補強：為了讓 collectAsStateWithLifecycle 正常運作
+    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.8.7")
+
     implementation("com.google.android.gms:play-services-maps:19.0.0")
     implementation("com.google.maps.android:maps-compose:6.2.1")
     implementation("com.google.maps.android:maps-compose-utils:6.2.1")
 
-    implementation("com.google.android.gms:play-services-location:21.3.0")
+    // 新增：用於解析 Google Maps 路徑 (PolyUtil) 與網路請求 (OkHttp)
+    implementation("com.google.maps.android:android-maps-utils:3.8.2")
+    implementation("com.squareup.okhttp3:okhttp:4.12.0")
 
-    // 補上這個：處理 Google Task (如定位) 的協程支援
+    implementation("com.google.android.gms:play-services-location:21.3.0")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.9.0")
 
     implementation("com.squareup.retrofit2:retrofit:2.11.0")
