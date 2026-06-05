@@ -1,1 +1,7 @@
-1
+詞彙	                              定義（解釋）	                                  備註
+Congestion Score	                  壅塞分數。                                後端計算 0–100，數值越高代表交通越擁擠。	決定 UI 標記顏色。
+OSRM	Open Source Routing Machine。  開源路由引擎。	                          用於計算導航的路徑點。
+Polyline	                            折線。地圖上用來渲染導航路線的藍色線條。	對應 smartPathPoints。
+ModalBottomSheet	                   底部彈出面板。點擊路況後升起的數據視窗。     	用於顯示車速與評級。
+Geocoder                        	地理編碼。將「桃園火車站」等文字轉為座標的工具。	支援搜尋與長按功能。
+
